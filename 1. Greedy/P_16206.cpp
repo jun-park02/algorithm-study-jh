@@ -5,6 +5,9 @@
 #include <algorithm>
 using namespace std;
 
+// 문제주소 : https://www.acmicpc.net/problem/16206
+// 메모리, 응답시간 : 2080KB, 0ms
+
 int main() {
     int N, M;
     cin >> N;
