@@ -1,5 +1,8 @@
 ﻿#include <iostream>
 
+// 문제주소 : https://www.acmicpc.net/problem/9663
+// 메모리 및 시간 : 2020KB, 6236ms
+
 int N;
 int px[15], py[15];
 
@@ -7,7 +10,7 @@ int bc(int y, int x) {
 	px[y] = x; py[y] = y;
 
 	for (int i = 0; i < y; i++) {
-		if (y == py[i]) return 0;
+		if (x == px[i]) return 0;
 		if (std::abs(x - px[i]) == std::abs(y - py[i])) return 0;
 	}
 
