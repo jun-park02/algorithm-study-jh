@@ -109,5 +109,4 @@ int main(void) {
     std::cout << result1 << " " << result2;
 
     return 0;
-
 }
