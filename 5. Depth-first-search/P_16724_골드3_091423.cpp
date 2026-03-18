@@ -2,6 +2,9 @@
 #include <algorithm>
 #include <vector>
 
+// 문제주소: https://www.acmicpc.net/problem/16724
+// 메모리, 응답시간 : 4104KB, 28ms
+
 int N, M;
 char** map;
 bool** visited;
